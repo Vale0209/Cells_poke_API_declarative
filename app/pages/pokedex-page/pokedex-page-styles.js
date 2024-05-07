@@ -1,0 +1,30 @@
+import { css } from 'lit-element';
+
+export default css `
+  cells-template-paper-drawer-panel {
+    background-color: #5472d3;
+    text-align: center;
+  }
+
+  [slot="app__main"] {
+    position: relative;
+    z-index: 2; 
+  }
+  
+  .nav-pokemon {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;    
+    margin-top: 2rem;
+  }
+
+  .nav-pokemon button {
+    width: 80px;
+    background-color: #00074e;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 1rem;
+  }  
+`;

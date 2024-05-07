@@ -1,0 +1,23 @@
+{
+  "name": "scaffoldLit",
+  "version": "0.1.0",
+  "keywords": [
+    "cells-app"
+  ],
+  "description": "Esta es la app de Pokemon",
+  "scripts": {
+    "start": "cells app:serve -c dev.js"
+  },
+  "dependencies": {
+    "@bbva-web-components/bbva-button-default": "~5.9.13",
+    "@bbva-web-components/bbva-core-intl-mixin": "~1.0.5",
+    "@bbva-web-components/bbva-core-scoping-ambients-shim": "~1.0.1",
+    "@cells-components/cells-template-paper-drawer-panel": "~2.0.7",
+    "@cells/cells-bridge": "~3.17.0",
+    "@cells/cells-element": "~1.3.3",
+    "@cells/cells-page": "~1.3.1",
+    "@open-wc/lit-helpers": "~0.3.11",
+    "@webcomponents/webcomponentsjs": "~2.4.4",
+    "cells-app-template": "~6.0.0"
+  }
+}
